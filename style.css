@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 .heading{
     color: black;
@@ -52,6 +53,10 @@ h1{
 
 /*==== Donate Section one Start ==== */
 
+#donate-section-one{
+    background-color: rgba(233, 150, 122, 0.372);
+    padding: 10px;
+}
 .contant-area{
     width: 80%;
     margin: 0 auto;
@@ -76,7 +81,7 @@ span{
     padding: 15px 10px;
     border-radius: 5px;
     border-color: lightcoral;
-    color: lightcoral;
+    color: black;
 }
 
 #custom-donattion-field{
@@ -92,6 +97,11 @@ span{
     text-align: center;
 }
 /*==== Donate Section one End  ==== */
+
+/* ===== Donate Plan Section Start====== */
+#donate-plan-section{
+    background-color: rgba(112, 128, 144, 0.294);
+}
 #donate-plan-container{
     display: flex;
     padding: 50px;
@@ -127,7 +137,15 @@ span{
     background-color:rgba(233, 150, 122, 0.409);
 }
 
+/* ======== Donate plan Section End======== */
 
+/* ========== work preview section start========= */
+#work-example-section{
+    background-color:rgba(95, 158, 160, 0.266);
+    padding: 200px;
+    height: 500px;
+}
+/* ========== work previw section end=========== */
 
 /* ======== Get Update Section Start ======== */
 #get-update-section{
