@@ -2,6 +2,9 @@ body{
     margin: 0;
     padding: 0;
 }
+.heading{
+    color: black;
+}
 
 /* ===== Header Section Start ======= */
 header{   
@@ -15,6 +18,7 @@ header{
 h1{
     font-size: 80px;
     color: rgba(175, 250, 12, 0.738);
+    text-align: center;
 }
 
 .text-area{
@@ -32,7 +36,7 @@ h1{
     color: white;
     padding: 10px 20px;
     background-color: palevioletred;
-    border: 2px solid white;
+    border: 3px solid black;
     border-radius: 10px;
     font-variant: small-caps;
     font-weight: bold;
@@ -43,13 +47,14 @@ h1{
 
 /*==== Donate Section one Start ==== */
 
-    
-
 .contant-area{
     width: 80%;
     margin: 0 auto;
     text-align: center;
+    padding: 100px;
+    padding-top: 0;
 }
+
 ul li{
     list-style-type: none;
     display: block;
@@ -60,29 +65,94 @@ ul li{
     font-size: 20px;
     text-align: center;
 }
-.custom-donattion-field{
-    outline:none !important;
-    border: none !important;
-}
+
 span{
     border: 5px solid black;
-    padding: 20px 10px;
+    padding: 15px 10px;
     border-radius: 5px;
     border-color: lightcoral;
     color: lightcoral;
 }
+
+#custom-donattion-field{
+    border: none;
+    outline: none;
+    width: 600px;
+    height: 20px;
+    border-bottom: 2px solid black;
+    line-height: 20px;
+    box-shadow: 1px 1px 20px black;
+    border-radius: 10px;
+    padding: 10px;
+}
 /*==== Donate Section one End  ==== */
+#donate-plan-container{
+    display: flex;
+    padding: 50px;
+    margin-left: 125px;
+    text-align: center;
+   
+}
+
+.plan-container{
+    width: 300px;
+    height: 300px;
+    padding: 20px;
+    border: 2px solid black;
+    margin-left: 25px;
+    margin-left: 50px;
+    box-shadow: 1px 1px 20px  black;
+}
+
+ 
+#donate-plan-section{
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.plan1{
+    background-color: rgba(250, 235, 215, 0.524);
+}
+.plan2{
+    background-color: rgba(127, 255, 212, 0.257);
+}
+.plan3{
+    background-color:rgba(233, 150, 122, 0.409);
+}
 
 
 
+/* ======== Get Update Section Start ======== */
+#get-update-section{
+    padding: 100px;
+    background-color: antiquewhite;
+    text-align: center;
+}
 
+#email-field{
+    width: 500px;
+    height: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+/* ========= Get Update Section End ========== */
 
 /* ======= Main Section End ================= */
 
 
-
-
 /* ===== Footer Section Start ========= */
+footer{
+    background-color: black;
+    color: crimson;
+    text-align: center;
+    padding: 20px;
+
+}
+
+footer p{
+    color: white;
+}
 /* ===== Footer Section End ============= */
 
 
