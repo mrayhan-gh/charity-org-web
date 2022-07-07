@@ -3,9 +3,9 @@ body{
     padding: 0;
 }
 
-/* =====Welcom Section Start======= */
+/* ===== Header Section Start ======= */
 header{   
-    background-image: url(images/header-image1.jpg);
+    background-image: url(Images/header-image1.jpg);
     height: 900px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,5 +37,52 @@ h1{
     font-variant: small-caps;
     font-weight: bold;
 }
-/* =====Welcom Section Start======= */
+/* ===== Header Section End======= */
+
+/* ======= Main Section Start =============== */
+
+/*==== Donate Section one Start ==== */
+
+    
+
+.contant-area{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    display: block;
+    float: left;
+    margin-left: 50px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+}
+.custom-donattion-field{
+    outline:none !important;
+    border: none !important;
+}
+span{
+    border: 5px solid black;
+    padding: 20px 10px;
+    border-radius: 5px;
+    border-color: lightcoral;
+    color: lightcoral;
+}
+/*==== Donate Section one End  ==== */
+
+
+
+
+
+/* ======= Main Section End ================= */
+
+
+
+
+/* ===== Footer Section Start ========= */
+/* ===== Footer Section End ============= */
+
 
