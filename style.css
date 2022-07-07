@@ -5,44 +5,48 @@ body{
 }
 .heading{
     color: black;
-    font-size: 50px;
+    font-size: 30px;
 }
 
 /* ===== Header Section Start ======= */
 header{   
     background-image: url(Images/header-image1.jpg);
-    height: 900px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-top: 0;
+    padding: 05px;
 }
-
-h1{
-    font-size: 80px;
-    color: rgb(11, 136, 253);
+.welcome-text{
+    font-size: 60px;
+    color: wheat;
     text-align: center;
+   
+    padding: 10px 30px;
+    border-radius: 10px;
+    text-shadow: 3px 3px 20px black;
+    
 }
 .text-area{
-    padding-top: 100px;
     text-align: center;
     color: white;
     width: 1000px;
     margin: 0 auto;
     font-size: 25px;
-    text-shadow: 5px 5px 30px black;
+    text-shadow: 1px 1px 30px black;
 }
 
 .button{
     text-decoration: none;
     color: white;
     padding: 15px;
-    background-color: palevioletred;
+    background-color: rgba(220, 20, 60, 0.604);
     border: 3px solid black;
     border-radius: 10px;
     font-variant: small-caps;
     font-weight: bold;
     box-shadow: 1px 1px 10px black;
-    margin-top: 100px;
+    margin: 30px;
+
 }
 /* ===== Header Section End======= */
 
@@ -53,12 +57,12 @@ h1{
     padding: 100px;
 }
 .contant-area{
-    width: 50%;
+    width: 70%;
     margin: 0 auto;
     text-align: center;
-    padding: 100px;
+    padding: 80px 100px;
     box-shadow: 1px 1px 10px  black;
-    height: 500px   ;
+    height: 400px;
     
 }
 ul li{
@@ -69,6 +73,8 @@ ul li{
     font-weight: bold;
     font-size: 20px;
     text-align: center;
+    margin-left: 20px;
+    padding-top: 0px;
 }
 
 span{
@@ -78,16 +84,16 @@ span{
     border-color: lightcoral;
     color: black;
 }
-#custom-donattion-field{
+#custom-donation-field{
     border: none;
     width: 400px;
     height: 20px;
-    border-bottom: 5px solid black;
+    border-bottom: 4px solid black;
     box-shadow: 1px 1px 20px black;
     border-radius: 10px;
     padding: 10px;
     text-align: center;
-    margin-top: 30px;
+    margin: 35px;
 }
 
 /*==== Donate Section one End  ==== */
@@ -95,12 +101,20 @@ span{
 /* ===== Donate Plan Section Start====== */
 #donate-plan-section{
     background-color: antiquewhite;
+    padding: 100px;
 }
 #donate-plan-container{
     display: flex;
-    padding: 50px;
+    padding: 100px;
     margin-left: 125px;
     text-align: center;
+}
+.text-control{
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 10px;
+    line-break:anywhere;
 }
 .plan-container{
     width: 300px;
@@ -132,13 +146,16 @@ span{
 /* ========== About Us section start========= */
 #About_Us-Section{
     background-color:rgba(127, 255, 212, 0.257);
-    padding: 150px;
-    height: 700px;
-    text-align: justify;
+    padding: 100px;
+    height: 500px;
 }
 #about-us-container{
     box-shadow: 1px 1px 10px  black;;
-    padding: 100px;
+    padding: 50px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+    line-break:auto;
 }
 /* ========== About Us section end=========== */
 
@@ -146,15 +163,16 @@ span{
 #get-update-section{
     padding: 100px;
     background-color: rgba(82, 130, 179, 0.379);
-    text-align: center;
+   
 
 }
 #main-container{
-    padding: 10px;
+    padding: 40px;
     box-shadow: 1px 1px 10px  black;
     width: 500px;
     margin: 0 auto;
-    height: 400px;
+    height: 350px;
+    text-align: center;
 }
 #email-field{
     width: 400px;
